@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/parent"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:elevation="50dp"
+    android:padding="10dp"
+    app:cardCornerRadius="10dp"
+    android:layout_margin="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/txtnumG"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="7dp"
+
+            android:minWidth="48dp"
+
+            android:minHeight="48dp"
+            android:text="G" />
+
+        <TextView
+            android:id="@+id/txtnumS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="7dp"
+            android:layout_toRightOf="@+id/txtnumG"
+            android:minWidth="48dp"
+
+            android:minHeight="48dp"
+            android:text="S" />
+
+        <TextView
+            android:id="@+id/txtnumB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="7dp"
+            android:layout_toRightOf="@+id/txtnumS"
+            android:minWidth="48dp"
+            android:minHeight="48dp"
+            android:text="B" />
+
+        <TextView
+            android:id="@+id/txtPunti"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="7dp"
+            android:layout_toRightOf="@+id/txtnumB"
+            android:minWidth="48dp"
+            android:minHeight="48dp"
+            android:text="punti" />
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
